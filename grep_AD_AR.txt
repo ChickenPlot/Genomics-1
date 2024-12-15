@@ -1,0 +1,41 @@
+# CASE 1616    # case 1784 
+# AUTOSOMIC DOMINANT
+grep "#" case1616.vcf > candilist1616.vcf
+grep "0/0.*0/0.*0/1" case1616.vcf >> candilist1616.vcf
+grep "0/2.*0/0.*0/1" case1616.vcf >> candilist1616.vcf
+grep "0/0.*0/2.*0/1" case1616.vcf >> candilist1616.vcf
+grep "0/0.*0/3.*0/1" case1616.vcf >> candilist1616.vcf
+
+grep "0/0.*0/0.*0/2" case1616.vcf >> candilist1616.vcf
+grep "0/1.*0/0.*0/2" case1616.vcf >> candilist1616.vcf
+grep "0/0.*0/1.*0/2" case1616.vcf >> candilist1616.vcf
+grep "0/0.*0/3.*0/2" case1616.vcf >> candilist1616.vcf
+
+grep "0/0.*0/0.*0/3" case1616.vcf >> candilist1616.vcf
+grep "0/1.*0/0.*0/3" case1616.vcf >> candilist1616.vcf
+grep "0/2.*0/0.*0/3" case1616.vcf >> candilist1616.vcf
+grep "0/0.*0/1.*0/3" case1616.vcf >> candilist1616.vcf
+grep "0/0.*0/2.*0/3" case1616.vcf >> candilist1616.vcf
+
+grep "1/1.*1/1.*1/2" case1616.vcf >> candilist1616.vcf
+grep "1/1.*1/3.*1/2" case1616.vcf >> candilist1616.vcf
+
+grep "2/2.*2/2.*1/2" case1616.vcf >> candilist1616.vcf
+
+
+#########################################################################################
+
+
+# AUTOSOMIC RECESSIVE
+
+grep "#" case1767.vcf > candilist1767.vcf
+grep "0/1.*0/1.*1/1" case1767.vcf >> candilist1767.vcf
+grep "0/2.*0/2.*2/2" case1767.vcf >> candilist1767.vcf
+grep "1/2.*1/2.*2/2" case1767.vcf >> candilist1767.vcf
+grep "1/2.*1/2.*1/1" case1767.vcf >> candilist1767.vcf
+grep "1/2.*1/3.*1/1" case1767.vcf >> candilist1767.vcf
+
+
+
+
+
